@@ -1,4 +1,10 @@
 import React from "react";
+import images1 from "../assets/product-1.jpg";
+import images2 from "../assets/product-2.jpg";
+import images3 from "../assets/product-3.jpg";
+import images4 from "../assets/product-4.jpg";
+import images5 from "../assets/product-5.jpg";
+import images6 from "../assets/product-6.jpg";
 
 const Productes = () => {
   return (
@@ -43,7 +49,7 @@ const Productes = () => {
                 // style="--width: 300; --height: 300"
               >
                 <img
-                  src="./assets/images/product-1.jpg"
+                  src={images1}
                   width="300"
                   height="300"
                   loading="lazy"
@@ -129,7 +135,7 @@ const Productes = () => {
                 // style="--width: 300; --height: 300"
               >
                 <img
-                  src="./assets/images/product-2.jpg"
+                  src={images1}
                   width="300"
                   height="300"
                   loading="lazy"
@@ -205,7 +211,7 @@ const Productes = () => {
                 // style="--width: 300; --height: 300"
               >
                 <img
-                  src="./assets/images/product-3.jpg"
+                  src={images6}
                   width="300"
                   height="300"
                   loading="lazy"
@@ -279,7 +285,7 @@ const Productes = () => {
                 // style="--width: 300; --height: 300"
               >
                 <img
-                  src="./assets/images/product-4.jpg"
+                  src={images5}
                   width="300"
                   height="300"
                   loading="lazy"
@@ -353,7 +359,7 @@ const Productes = () => {
                 // style="--width: 300; --height: 300"
               >
                 <img
-                  src="./assets/images/product-5.jpg"
+                  src={images1}
                   width="300"
                   height="300"
                   loading="lazy"
@@ -427,7 +433,7 @@ const Productes = () => {
                 // style="--width: 300; --height: 300"
               >
                 <img
-                  src="./assets/images/product-6.jpg"
+                  src={images1}
                   width="300"
                   height="300"
                   loading="lazy"
@@ -501,7 +507,7 @@ const Productes = () => {
                 // style="--width: 300; --height: 300"
               >
                 <img
-                  src="./assets/images/product-7.jpg"
+                  src={images1}
                   width="300"
                   height="300"
                   loading="lazy"
@@ -575,7 +581,7 @@ const Productes = () => {
                 // style="--width: 300; --height: 300"
               >
                 <img
-                  src="./assets/images/product-8.jpg"
+                  src={images1}
                   width="300"
                   height="300"
                   loading="lazy"
@@ -649,7 +655,7 @@ const Productes = () => {
                 // style="--width: 300; --height: 300"
               >
                 <img
-                  src="./assets/images/product-9.jpg"
+                  src={images1}
                   width="300"
                   height="300"
                   loading="lazy"
@@ -723,7 +729,7 @@ const Productes = () => {
                 // style="--width: 300; --height: 300"
               >
                 <img
-                  src="./assets/images/product-10.jpg"
+                  src={images1}
                   width="300"
                   height="300"
                   loading="lazy"
@@ -797,7 +803,7 @@ const Productes = () => {
                 // style="--width: 300; --height: 300"
               >
                 <img
-                  src="./assets/images/product-11.jpg"
+                  src={images1}
                   width="300"
                   height="300"
                   loading="lazy"
@@ -871,7 +877,7 @@ const Productes = () => {
                 // style="--width: 300; --height: 300"
               >
                 <img
-                  src="./assets/images/product-12.jpg"
+                  src={images1}
                   width="300"
                   height="300"
                   loading="lazy"
@@ -945,7 +951,7 @@ const Productes = () => {
                 // style="--width: 300; --height: 300"
               >
                 <img
-                  src="./assets/images/product-13.jpg"
+                  src={images1}
                   width="300"
                   height="300"
                   loading="lazy"
@@ -1019,7 +1025,7 @@ const Productes = () => {
                 // style="--width: 300; --height: 300"
               >
                 <img
-                  src="./assets/images/product-14.jpg"
+                  src={images2}
                   width="300"
                   height="300"
                   loading="lazy"
@@ -1093,7 +1099,7 @@ const Productes = () => {
                 // style="--width: 300; --height: 300"
               >
                 <img
-                  src="./assets/images/product-15.jpg"
+                  src={images2}
                   width="300"
                   height="300"
                   loading="lazy"
@@ -1167,7 +1173,7 @@ const Productes = () => {
                 // style="--width: 300; --height: 300"
               >
                 <img
-                  src="./assets/images/product-16.jpg"
+                  src={images2}
                   width="300"
                   height="300"
                   loading="lazy"
@@ -1241,7 +1247,7 @@ const Productes = () => {
                 // style="--width: 300; --height: 300"
               >
                 <img
-                  src="./assets/images/product-17.jpg"
+                  src={images2}
                   width="300"
                   height="300"
                   loading="lazy"
@@ -1315,7 +1321,7 @@ const Productes = () => {
                 // style="--width: 300; --height: 300"
               >
                 <img
-                  src="./assets/images/product-18.jpg"
+                  src={images4}
                   width="300"
                   height="300"
                   loading="lazy"
@@ -1389,7 +1395,7 @@ const Productes = () => {
                 // style="--width: 300; --height: 300"
               >
                 <img
-                  src="./assets/images/product-19.jpg"
+                  src={images3}
                   width="300"
                   height="300"
                   loading="lazy"
