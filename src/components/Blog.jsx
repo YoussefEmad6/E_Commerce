@@ -1,4 +1,7 @@
 import React from "react";
+import image1 from "../assets/blog-1.jpg";
+import image2 from "../assets/blog-2.jpg";
+import image3 from "../assets/blog-3.jpg";
 
 const Blog = () => {
   return (
@@ -22,7 +25,7 @@ const Blog = () => {
                 // style="--width: 374; --height: 243"
               >
                 <img
-                  src="./assets/images/blog-1.jpg"
+                  src={image1}
                   width="374"
                   height="243"
                   loading="lazy"
@@ -75,7 +78,7 @@ const Blog = () => {
                 // style="--width: 374; --height: 243"
               >
                 <img
-                  src="./assets/images/blog-2.jpg"
+                  src={image2}
                   width="374"
                   height="243"
                   loading="lazy"
@@ -128,7 +131,7 @@ const Blog = () => {
                 // style="--width: 374; --height: 243"
               >
                 <img
-                  src="./assets/images/blog-3.jpg"
+                  src={image3}
                   width="374"
                   height="243"
                   loading="lazy"
