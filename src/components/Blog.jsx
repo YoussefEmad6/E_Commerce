@@ -7,7 +7,7 @@ const Blog = () => {
         <div className="title-wrapper">
           <h2 className="h2 section-title">Explore our blog</h2>
 
-          <a href="#" className="btn-link">
+          <a href="#linkref" className="btn-link">
             <span className="span">View All</span>
 
             <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
@@ -30,7 +30,7 @@ const Blog = () => {
                   className="img-cover"
                 />
 
-                <a href="#" className="card-btn">
+                <a href="#linkref" className="card-btn">
                   <span className="span">Read more</span>
 
                   <ion-icon name="add-outline" aria-hidden="true"></ion-icon>
@@ -39,7 +39,7 @@ const Blog = () => {
 
               <div className="card-content">
                 <h3 className="h3">
-                  <a href="#" className="card-title">
+                  <a href="#linkref" className="card-title">
                     Unique products that will impress your home in 2022.
                   </a>
                 </h3>
@@ -52,14 +52,14 @@ const Blog = () => {
                   </li>
 
                   <li className="card-meta-item">
-                    <a href="#" className="card-meta-text">
+                    <a href="#linkref" className="card-meta-text">
                       Admin
                     </a>
                   </li>
 
                   <li className="card-meta-item">
                     in{" "}
-                    <a href="#" className="card-meta-text">
+                    <a href="#linkref" className="card-meta-text">
                       deco
                     </a>
                   </li>
@@ -83,7 +83,7 @@ const Blog = () => {
                   className="img-cover"
                 />
 
-                <a href="#" className="card-btn">
+                <a href="#linkref" className="card-btn">
                   <span className="span">Read more</span>
 
                   <ion-icon name="add-outline" aria-hidden="true"></ion-icon>
@@ -92,7 +92,7 @@ const Blog = () => {
 
               <div className="card-content">
                 <h3 className="h3">
-                  <a href="#" className="card-title">
+                  <a href="#linkref" className="card-title">
                     Navy Blue & White Striped Area Rugs
                   </a>
                 </h3>
@@ -105,14 +105,14 @@ const Blog = () => {
                   </li>
 
                   <li className="card-meta-item">
-                    <a href="#" className="card-meta-text">
+                    <a href="#linkref" className="card-meta-text">
                       Admin
                     </a>
                   </li>
 
                   <li className="card-meta-item">
                     in{" "}
-                    <a href="#" className="card-meta-text">
+                    <a href="#linkref" className="card-meta-text">
                       deco
                     </a>
                   </li>
@@ -136,7 +136,7 @@ const Blog = () => {
                   className="img-cover"
                 />
 
-                <a href="#" className="card-btn">
+                <a href="#linkref" className="card-btn">
                   <span className="span">Read more</span>
 
                   <ion-icon name="add-outline" aria-hidden="true"></ion-icon>
@@ -145,7 +145,7 @@ const Blog = () => {
 
               <div className="card-content">
                 <h3 className="h3">
-                  <a href="#" className="card-title">
+                  <a href="#linkref" className="card-title">
                     Woodex White Coated Staircase Floating
                   </a>
                 </h3>
@@ -158,14 +158,14 @@ const Blog = () => {
                   </li>
 
                   <li className="card-meta-item">
-                    <a href="#" className="card-meta-text">
+                    <a href="#linkref" className="card-meta-text">
                       Admin
                     </a>
                   </li>
 
                   <li className="card-meta-item">
                     in{" "}
-                    <a href="#" className="card-meta-text">
+                    <a href="#linkref" className="card-meta-text">
                       deco
                     </a>
                   </li>
