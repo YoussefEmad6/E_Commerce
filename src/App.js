@@ -17,6 +17,7 @@ function App() {
           <Productes />
           <Blog />
           <NewsLetter />
+          <NewsLetter />
         </article>
       </main>
       <Footer />
