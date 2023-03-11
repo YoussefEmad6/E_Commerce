@@ -4,10 +4,7 @@ import About from "../components/About";
 import Productes from "../components/Productes";
 import Blog from "../components/Blog";
 import NewsLetter from "../components/NewsLetter";
-import CartContext from "../Context/Cart/CartContext";
-import { useContext } from "react";
 const Home = () => {
-
   return (
     <>
       <Hero />

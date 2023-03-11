@@ -4,13 +4,8 @@ import FavouriteItem from "../components/FavouriteItem";
 import { useContext } from "react";
 const Favourite = ({ products }) => {
   const {
-    favoritfavoAdd,
-    favoritfavoRem,
-    addToCart,
-    removeFromCart,
-    increase,
     favoitems,
-    cartItems,
+
   } = useContext(CartContext);
 
   // console.log(favoitems);
