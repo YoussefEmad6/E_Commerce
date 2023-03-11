@@ -49,7 +49,7 @@ const Blog = () => {
 
                 <ul className="card-meta-list">
                   <li className="card-meta-item">
-                    <time className="card-meta-text" datetime="2022-09-27">
+                    <time className="card-meta-text" dateTime="2022-09-27">
                       November 27, 2022
                     </time>
                   </li>
@@ -102,7 +102,7 @@ const Blog = () => {
 
                 <ul className="card-meta-list">
                   <li className="card-meta-item">
-                    <time className="card-meta-text" datetime="2022-09-25">
+                    <time className="card-meta-text" dateTime="2022-09-25">
                       November 25, 2022
                     </time>
                   </li>
@@ -155,7 +155,7 @@ const Blog = () => {
 
                 <ul className="card-meta-list">
                   <li className="card-meta-item">
-                    <time className="card-meta-text" datetime="2022-09-18">
+                    <time className="card-meta-text" dateTime="2022-09-18">
                       November 18, 2022
                     </time>
                   </li>

@@ -1,10 +1,12 @@
 import React from "react";
-import images1 from "../assets/product-1.jpg";
-import images2 from "../assets/product-2.jpg";
-import images3 from "../assets/product-3.jpg";
-import images4 from "../assets/product-4.jpg";
-import images5 from "../assets/product-5.jpg";
-import images6 from "../assets/product-6.jpg";
+import ProductCard from "./ProductCard";
+import { products } from "../data";
+// import images1 from "../assets/product-1.jpg";
+// import images2 from "../assets/product-2.jpg";
+// import images3 from "../assets/product-3.jpg";
+// import images4 from "../assets/product-4.jpg";
+// import images5 from "../assets/product-5.jpg";
+// import images6 from "../assets/product-6.jpg";
 
 const Productes = () => {
   return (
@@ -41,7 +43,7 @@ const Productes = () => {
         </div>
 
         <ul className="grid-list product-list" data-filter="all">
-          <li className="decoration">
+          {/* <li className="decoration">
             <div className="product-card">
               <a
                 href="#likwodo"
@@ -349,9 +351,9 @@ const Productes = () => {
                 </div>
               </div>
             </div>
-          </li>
+          </li> */}
 
-          <li className="accessory">
+          {/* <li className="accessory">
             <div className="product-card">
               <a
                 href="#likwodo"
@@ -423,9 +425,9 @@ const Productes = () => {
                 </div>
               </div>
             </div>
-          </li>
+          </li> */}
 
-          <li className="furniture">
+          {/* <li className="furniture">
             <div className="product-card">
               <a
                 href="#likwodo"
@@ -497,9 +499,9 @@ const Productes = () => {
                 </div>
               </div>
             </div>
-          </li>
+          </li> */}
 
-          <li className="accessory">
+          {/* <li className="accessory">
             <div className="product-card">
               <a
                 href="#likwodo"
@@ -571,9 +573,9 @@ const Productes = () => {
                 </div>
               </div>
             </div>
-          </li>
+          </li> */}
 
-          <li className="accessory">
+          {/* <li className="accessory">
             <div className="product-card">
               <a
                 href="#likwodo"
@@ -645,9 +647,9 @@ const Productes = () => {
                 </div>
               </div>
             </div>
-          </li>
+          </li> */}
 
-          <li className="furniture">
+          {/* <li className="furniture">
             <div className="product-card">
               <a
                 href="#likwodo"
@@ -719,9 +721,9 @@ const Productes = () => {
                 </div>
               </div>
             </div>
-          </li>
+          </li> */}
 
-          <li className="furniture">
+          {/* <li className="furniture">
             <div className="product-card">
               <a
                 href="#likwodo"
@@ -793,9 +795,9 @@ const Productes = () => {
                 </div>
               </div>
             </div>
-          </li>
+          </li> */}
 
-          <li className="decoration">
+          {/* <li className="decoration">
             <div className="product-card">
               <a
                 href="#likwodo"
@@ -867,9 +869,9 @@ const Productes = () => {
                 </div>
               </div>
             </div>
-          </li>
+          </li> */}
 
-          <li className="furniture">
+          {/* <li className="furniture">
             <div className="product-card">
               <a
                 href="#likwodo"
@@ -941,9 +943,9 @@ const Productes = () => {
                 </div>
               </div>
             </div>
-          </li>
+          </li> */}
 
-          <li className="furniture">
+          {/* <li className="furniture">
             <div className="product-card">
               <a
                 href="#likwodo"
@@ -1015,9 +1017,9 @@ const Productes = () => {
                 </div>
               </div>
             </div>
-          </li>
+          </li> */}
 
-          <li className="accessory">
+          {/* <li className="accessory">
             <div className="product-card">
               <a
                 href="#likwodo"
@@ -1089,9 +1091,9 @@ const Productes = () => {
                 </div>
               </div>
             </div>
-          </li>
+          </li> */}
 
-          <li className="decoration">
+          {/* <li className="decoration">
             <div className="product-card">
               <a
                 href="#likwodo"
@@ -1163,9 +1165,9 @@ const Productes = () => {
                 </div>
               </div>
             </div>
-          </li>
+          </li> */}
 
-          <li className="decoration">
+          {/* <li className="decoration">
             <div className="product-card">
               <a
                 href="#likwodo"
@@ -1237,9 +1239,9 @@ const Productes = () => {
                 </div>
               </div>
             </div>
-          </li>
+          </li> */}
 
-          <li className="decoration">
+          {/* <li className="decoration">
             <div className="product-card">
               <a
                 href="#likwodo"
@@ -1311,9 +1313,9 @@ const Productes = () => {
                 </div>
               </div>
             </div>
-          </li>
+          </li> */}
 
-          <li className="decoration">
+          {/* <li className="decoration">
             <div className="product-card">
               <a
                 href="#likwodo"
@@ -1385,9 +1387,9 @@ const Productes = () => {
                 </div>
               </div>
             </div>
-          </li>
+          </li> */}
 
-          <li className="accessory">
+          {/* <li className="accessory">
             <div className="product-card">
               <a
                 href="#likwodo"
@@ -1459,7 +1461,10 @@ const Productes = () => {
                 </div>
               </div>
             </div>
-          </li>
+          </li> */}
+          {products.map((product) => (
+            <ProductCard key={product.id} product={product} />
+          ))}
         </ul>
       </div>
     </section>

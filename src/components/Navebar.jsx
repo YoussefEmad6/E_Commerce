@@ -1,5 +1,10 @@
 import React, { useState } from "react";
+import { Link } from "react-router-dom";
+import CartContext from "../Context/Cart/CartContext";
+import { useContext } from "react";
 const Navebar = () => {
+  const { favoitems, itemCount } = useContext(CartContext);
+  // console.log(favoitems);
   const [nav, setNav] = useState(false);
   const toggleClick = () => {
     setNav(!nav);
@@ -23,24 +28,28 @@ const Navebar = () => {
             <ion-icon name="search-outline" aria-hidden="true"></ion-icon>
           </div>
 
-          <a href="#Woodex" className="logo">
+          <Link to="/" className="logo">
             Woodex
-          </a>
+          </Link>
 
           <div className="header-action">
-            <button className="header-action-btn" aria-label="user">
+            <Link to="/" className="header-action-btn" aria-label="user">
               <ion-icon name="person-outline" aria-hidden="true"></ion-icon>
-            </button>
+            </Link>
 
-            <button className="header-action-btn" aria-label="favorite list">
+            <Link
+              to="favourite"
+              className="header-action-btn"
+              aria-label="favorite list"
+            >
               <ion-icon name="heart-outline" aria-hidden="true"></ion-icon>
-              <span className="btn-badge">0</span>
-            </button>
+              <span className="btn-badge">{favoitems?.length}</span>
+            </Link>
 
-            <button className="header-action-btn" aria-label="cart">
+            <Link to="cart" className="header-action-btn" aria-label="cart">
               <ion-icon name="bag-handle-outline" aria-hidden="true"></ion-icon>
-              <span className="btn-badge">0</span>
-            </button>
+              <span className="btn-badge">{itemCount}</span>
+            </Link>
 
             <button
               className="header-action-btn"
@@ -169,19 +178,19 @@ const Navebar = () => {
           <ul className="social-list">
             <li>
               <a href="#facebook" className="social-link">
-              <ion-icon name="logo-facebook"></ion-icon>
+                <ion-icon name="logo-facebook"></ion-icon>
               </a>
             </li>
 
             <li>
               <a href="#twitter" className="social-link">
-              <ion-icon name="logo-twitter"></ion-icon>
+                <ion-icon name="logo-twitter"></ion-icon>
               </a>
             </li>
 
             <li>
               <a href="https://www.linkedin.com/feed/" className="social-link">
-              <ion-icon name="logo-tumblr"></ion-icon>
+                <ion-icon name="logo-tumblr"></ion-icon>
               </a>
             </li>
           </ul>

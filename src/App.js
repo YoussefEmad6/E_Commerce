@@ -1,25 +1,23 @@
+import Home from "./pages/Home";
+import Cart from "./pages/Cart";
+import Favourite from "./pages/Favourite ";
 import Navebar from "./components/Navebar";
-import Hero from "./components/Hero";
-import About from "./components/About";
 import Footer from "./components/Footer";
-import Productes from "./components/Productes";
-import Blog from "./components/Blog";
-import NewsLetter from "./components/NewsLetter";
 import "./App.css";
+import { Routes, Route } from "react-router-dom";
+import CartContext from "./Context/Cart/CartContext";
+import { useContext } from "react";
 function App() {
+  const { favoitems } = useContext(CartContext);
   return (
     <>
       <Navebar />
-      <main>
-        <article>
-          <Hero />
-          <About />
-          <Productes />
-          <Blog />
-          <NewsLetter />
-          <NewsLetter />
-        </article>
-      </main>
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="cart" element={<Cart />} />
+        <Route path="favourite" element={<Favourite products={favoitems} />} />
+      </Routes>
+
       <Footer />
     </>
   );
